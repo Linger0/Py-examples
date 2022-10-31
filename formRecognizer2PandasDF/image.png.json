@@ -1,0 +1,4176 @@
+{
+	"status": "succeeded",
+	"createdDateTime": "2022-10-30T11:36:57Z",
+	"lastUpdatedDateTime": "2022-10-30T11:36:58Z",
+	"analyzeResult": {
+		"apiVersion": "2022-08-31",
+		"modelId": "prebuilt-layout",
+		"stringIndexType": "utf16CodeUnit",
+		"content": "advantage\n加法 INT8\n乘法 INT8\n除法 INT8\nSADD INT8\nABS INT8\nbit-serial\ncomplicated digital logic, relatively low throughput\n16 WL (inplace) 8 cycles 8 data for 8 BL\nR/TAG, ADD 72+ cycles (n^2+n) 16 data for 16 BL\n108+ cycles (1.5n^2+1.5n)\n16 cycles (8 cycles for writing 1)\n24 cycles\nelement- wise\ntransposed\n8 BL, 2 WL\nOSM\nOSD\n1 cycle, 8 cycles for 8 data\n3 cycles (24\ndata layout,\n1 cycle, 8 cycles\n16 BL\n16 BL\ncycles for 8\nhigh latency\nfor 8 data\n16+ cycles (2n)\n16+ cycles\ndata)",
+		"pages": [
+			{
+				"pageNumber": 1,
+				"angle": -0.24480000138282776,
+				"width": 1182,
+				"height": 363,
+				"unit": "pixel",
+				"words": [
+					{
+						"content": "advantage",
+						"polygon": [
+							152,
+							31,
+							250,
+							30,
+							250,
+							54,
+							152,
+							55
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 0,
+							"length": 9
+						}
+					},
+					{
+						"content": "加",
+						"polygon": [
+							297,
+							28,
+							310,
+							28,
+							310,
+							50,
+							297,
+							50
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 10,
+							"length": 1
+						}
+					},
+					{
+						"content": "法",
+						"polygon": [
+							323,
+							28,
+							336,
+							28,
+							336,
+							50,
+							323,
+							50
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 11,
+							"length": 1
+						}
+					},
+					{
+						"content": "INT8",
+						"polygon": [
+							343,
+							28,
+							390,
+							27,
+							390,
+							49,
+							343,
+							50
+						],
+						"confidence": 0.988,
+						"span": {
+							"offset": 13,
+							"length": 4
+						}
+					},
+					{
+						"content": "乘",
+						"polygon": [
+							480,
+							28,
+							493,
+							28,
+							493,
+							50,
+							480,
+							50
+						],
+						"confidence": 0.982,
+						"span": {
+							"offset": 18,
+							"length": 1
+						}
+					},
+					{
+						"content": "法",
+						"polygon": [
+							503,
+							28,
+							516,
+							28,
+							517,
+							50,
+							503,
+							50
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 19,
+							"length": 1
+						}
+					},
+					{
+						"content": "INT8",
+						"polygon": [
+							521,
+							28,
+							566,
+							27,
+							567,
+							50,
+							521,
+							50
+						],
+						"confidence": 0.989,
+						"span": {
+							"offset": 21,
+							"length": 4
+						}
+					},
+					{
+						"content": "除",
+						"polygon": [
+							660,
+							28,
+							673,
+							28,
+							673,
+							50,
+							660,
+							50
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 26,
+							"length": 1
+						}
+					},
+					{
+						"content": "法",
+						"polygon": [
+							683,
+							28,
+							696,
+							28,
+							696,
+							50,
+							683,
+							50
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 27,
+							"length": 1
+						}
+					},
+					{
+						"content": "INT8",
+						"polygon": [
+							701,
+							28,
+							748,
+							27,
+							748,
+							50,
+							701,
+							50
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 29,
+							"length": 4
+						}
+					},
+					{
+						"content": "SADD",
+						"polygon": [
+							837,
+							29,
+							887,
+							28,
+							887,
+							51,
+							836,
+							51
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 34,
+							"length": 4
+						}
+					},
+					{
+						"content": "INT8",
+						"polygon": [
+							894,
+							28,
+							942,
+							27,
+							942,
+							50,
+							894,
+							51
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 39,
+							"length": 4
+						}
+					},
+					{
+						"content": "ABS",
+						"polygon": [
+							1017,
+							28,
+							1053,
+							28,
+							1052,
+							51,
+							1017,
+							51
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 44,
+							"length": 3
+						}
+					},
+					{
+						"content": "INT8",
+						"polygon": [
+							1057,
+							28,
+							1103,
+							27,
+							1103,
+							50,
+							1057,
+							51
+						],
+						"confidence": 0.99,
+						"span": {
+							"offset": 48,
+							"length": 4
+						}
+					},
+					{
+						"content": "bit-serial",
+						"polygon": [
+							30,
+							82,
+							110,
+							81,
+							110,
+							103,
+							30,
+							103
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 53,
+							"length": 10
+						}
+					},
+					{
+						"content": "complicated",
+						"polygon": [
+							151,
+							82,
+							265,
+							81,
+							265,
+							105,
+							151,
+							106
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 64,
+							"length": 11
+						}
+					},
+					{
+						"content": "digital",
+						"polygon": [
+							153,
+							111,
+							206,
+							112,
+							207,
+							137,
+							154,
+							137
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 76,
+							"length": 7
+						}
+					},
+					{
+						"content": "logic,",
+						"polygon": [
+							211,
+							112,
+							264,
+							113,
+							264,
+							137,
+							212,
+							137
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 84,
+							"length": 6
+						}
+					},
+					{
+						"content": "relatively",
+						"polygon": [
+							150,
+							141,
+							236,
+							143,
+							235,
+							166,
+							150,
+							166
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 91,
+							"length": 10
+						}
+					},
+					{
+						"content": "low",
+						"polygon": [
+							151,
+							172,
+							180,
+							172,
+							179,
+							192,
+							151,
+							191
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 102,
+							"length": 3
+						}
+					},
+					{
+						"content": "throughput",
+						"polygon": [
+							151,
+							202,
+							260,
+							203,
+							259,
+							226,
+							151,
+							227
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 106,
+							"length": 10
+						}
+					},
+					{
+						"content": "16",
+						"polygon": [
+							300,
+							83,
+							319,
+							82,
+							319,
+							106,
+							300,
+							106
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 117,
+							"length": 2
+						}
+					},
+					{
+						"content": "WL",
+						"polygon": [
+							324,
+							82,
+							354,
+							82,
+							354,
+							105,
+							324,
+							106
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 120,
+							"length": 2
+						}
+					},
+					{
+						"content": "(inplace)",
+						"polygon": [
+							358,
+							82,
+							439,
+							80,
+							440,
+							106,
+							359,
+							105
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 123,
+							"length": 9
+						}
+					},
+					{
+						"content": "8",
+						"polygon": [
+							297,
+							111,
+							308,
+							111,
+							307,
+							135,
+							296,
+							135
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 133,
+							"length": 1
+						}
+					},
+					{
+						"content": "cycles",
+						"polygon": [
+							312,
+							111,
+							371,
+							111,
+							370,
+							135,
+							312,
+							135
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 135,
+							"length": 6
+						}
+					},
+					{
+						"content": "8",
+						"polygon": [
+							297,
+							141,
+							308,
+							141,
+							307,
+							164,
+							295,
+							164
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 142,
+							"length": 1
+						}
+					},
+					{
+						"content": "data",
+						"polygon": [
+							313,
+							141,
+							354,
+							141,
+							353,
+							164,
+							312,
+							164
+						],
+						"confidence": 0.989,
+						"span": {
+							"offset": 144,
+							"length": 4
+						}
+					},
+					{
+						"content": "for",
+						"polygon": [
+							359,
+							141,
+							388,
+							141,
+							387,
+							164,
+							358,
+							164
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 149,
+							"length": 3
+						}
+					},
+					{
+						"content": "8",
+						"polygon": [
+							392,
+							141,
+							404,
+							141,
+							404,
+							164,
+							392,
+							164
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 153,
+							"length": 1
+						}
+					},
+					{
+						"content": "BL",
+						"polygon": [
+							409,
+							141,
+							434,
+							141,
+							435,
+							164,
+							409,
+							164
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 155,
+							"length": 2
+						}
+					},
+					{
+						"content": "R/TAG,",
+						"polygon": [
+							476,
+							82,
+							540,
+							82,
+							540,
+							104,
+							477,
+							104
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 158,
+							"length": 6
+						}
+					},
+					{
+						"content": "ADD",
+						"polygon": [
+							544,
+							83,
+							585,
+							83,
+							585,
+							103,
+							544,
+							104
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 165,
+							"length": 3
+						}
+					},
+					{
+						"content": "72+",
+						"polygon": [
+							477,
+							112,
+							513,
+							112,
+							513,
+							134,
+							477,
+							133
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 169,
+							"length": 3
+						}
+					},
+					{
+						"content": "cycles",
+						"polygon": [
+							517,
+							112,
+							574,
+							113,
+							574,
+							134,
+							517,
+							134
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 173,
+							"length": 6
+						}
+					},
+					{
+						"content": "(n^2+n)",
+						"polygon": [
+							477,
+							142,
+							556,
+							143,
+							555,
+							165,
+							477,
+							165
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 180,
+							"length": 7
+						}
+					},
+					{
+						"content": "16",
+						"polygon": [
+							479,
+							173,
+							499,
+							173,
+							498,
+							193,
+							479,
+							194
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 188,
+							"length": 2
+						}
+					},
+					{
+						"content": "data",
+						"polygon": [
+							504,
+							172,
+							546,
+							172,
+							546,
+							192,
+							504,
+							193
+						],
+						"confidence": 0.988,
+						"span": {
+							"offset": 191,
+							"length": 4
+						}
+					},
+					{
+						"content": "for",
+						"polygon": [
+							550,
+							172,
+							581,
+							172,
+							581,
+							192,
+							550,
+							192
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 196,
+							"length": 3
+						}
+					},
+					{
+						"content": "16",
+						"polygon": [
+							585,
+							172,
+							607,
+							172,
+							606,
+							193,
+							585,
+							192
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 200,
+							"length": 2
+						}
+					},
+					{
+						"content": "BL",
+						"polygon": [
+							477,
+							202,
+							499,
+							202,
+							499,
+							222,
+							477,
+							221
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 203,
+							"length": 2
+						}
+					},
+					{
+						"content": "108+",
+						"polygon": [
+							659,
+							82,
+							704,
+							83,
+							704,
+							104,
+							660,
+							105
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 206,
+							"length": 4
+						}
+					},
+					{
+						"content": "cycles",
+						"polygon": [
+							709,
+							83,
+							767,
+							83,
+							767,
+							104,
+							709,
+							104
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 211,
+							"length": 6
+						}
+					},
+					{
+						"content": "(1.5n^2+1.5n)",
+						"polygon": [
+							658,
+							112,
+							787,
+							112,
+							786,
+							134,
+							658,
+							134
+						],
+						"confidence": 0.966,
+						"span": {
+							"offset": 218,
+							"length": 13
+						}
+					},
+					{
+						"content": "16",
+						"polygon": [
+							839,
+							82,
+							857,
+							82,
+							857,
+							106,
+							839,
+							106
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 232,
+							"length": 2
+						}
+					},
+					{
+						"content": "cycles",
+						"polygon": [
+							862,
+							82,
+							919,
+							82,
+							919,
+							105,
+							862,
+							106
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 235,
+							"length": 6
+						}
+					},
+					{
+						"content": "(8",
+						"polygon": [
+							924,
+							82,
+							943,
+							81,
+							943,
+							105,
+							924,
+							105
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 242,
+							"length": 2
+						}
+					},
+					{
+						"content": "cycles",
+						"polygon": [
+							836,
+							114,
+							891,
+							113,
+							891,
+							135,
+							836,
+							136
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 245,
+							"length": 6
+						}
+					},
+					{
+						"content": "for",
+						"polygon": [
+							896,
+							112,
+							926,
+							112,
+							925,
+							134,
+							896,
+							135
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 252,
+							"length": 3
+						}
+					},
+					{
+						"content": "writing",
+						"polygon": [
+							836,
+							142,
+							902,
+							142,
+							902,
+							166,
+							837,
+							166
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 256,
+							"length": 7
+						}
+					},
+					{
+						"content": "1)",
+						"polygon": [
+							907,
+							142,
+							926,
+							142,
+							926,
+							167,
+							907,
+							166
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 264,
+							"length": 2
+						}
+					},
+					{
+						"content": "24",
+						"polygon": [
+							1017,
+							84,
+							1038,
+							83,
+							1038,
+							107,
+							1016,
+							107
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 267,
+							"length": 2
+						}
+					},
+					{
+						"content": "cycles",
+						"polygon": [
+							1043,
+							83,
+							1101,
+							82,
+							1101,
+							106,
+							1043,
+							107
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 270,
+							"length": 6
+						}
+					},
+					{
+						"content": "element-",
+						"polygon": [
+							29,
+							255,
+							113,
+							255,
+							113,
+							274,
+							29,
+							275
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 277,
+							"length": 8
+						}
+					},
+					{
+						"content": "wise",
+						"polygon": [
+							28,
+							286,
+							68,
+							285,
+							68,
+							303,
+							29,
+							304
+						],
+						"confidence": 0.988,
+						"span": {
+							"offset": 286,
+							"length": 4
+						}
+					},
+					{
+						"content": "transposed",
+						"polygon": [
+							151,
+							255,
+							254,
+							256,
+							254,
+							278,
+							151,
+							277
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 291,
+							"length": 10
+						}
+					},
+					{
+						"content": "8",
+						"polygon": [
+							297,
+							254,
+							308,
+							254,
+							308,
+							276,
+							296,
+							276
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 302,
+							"length": 1
+						}
+					},
+					{
+						"content": "BL,",
+						"polygon": [
+							312,
+							254,
+							341,
+							254,
+							341,
+							276,
+							312,
+							276
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 304,
+							"length": 3
+						}
+					},
+					{
+						"content": "2",
+						"polygon": [
+							346,
+							254,
+							357,
+							254,
+							357,
+							276,
+							345,
+							276
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 308,
+							"length": 1
+						}
+					},
+					{
+						"content": "WL",
+						"polygon": [
+							361,
+							254,
+							395,
+							254,
+							395,
+							276,
+							361,
+							276
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 310,
+							"length": 2
+						}
+					},
+					{
+						"content": "OSM",
+						"polygon": [
+							476,
+							254,
+							515,
+							254,
+							515,
+							274,
+							476,
+							274
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 313,
+							"length": 3
+						}
+					},
+					{
+						"content": "OSD",
+						"polygon": [
+							657,
+							254,
+							694,
+							254,
+							694,
+							273,
+							657,
+							273
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 317,
+							"length": 3
+						}
+					},
+					{
+						"content": "1",
+						"polygon": [
+							837,
+							255,
+							847,
+							255,
+							847,
+							280,
+							838,
+							280
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 321,
+							"length": 1
+						}
+					},
+					{
+						"content": "cycle,",
+						"polygon": [
+							852,
+							255,
+							902,
+							254,
+							903,
+							279,
+							852,
+							279
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 323,
+							"length": 6
+						}
+					},
+					{
+						"content": "8",
+						"polygon": [
+							907,
+							254,
+							919,
+							254,
+							919,
+							279,
+							908,
+							279
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 330,
+							"length": 1
+						}
+					},
+					{
+						"content": "cycles",
+						"polygon": [
+							924,
+							254,
+							985,
+							254,
+							985,
+							279,
+							924,
+							279
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 332,
+							"length": 6
+						}
+					},
+					{
+						"content": "for",
+						"polygon": [
+							837,
+							283,
+							863,
+							283,
+							862,
+							307,
+							836,
+							307
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 339,
+							"length": 3
+						}
+					},
+					{
+						"content": "8",
+						"polygon": [
+							867,
+							283,
+							880,
+							283,
+							879,
+							307,
+							867,
+							307
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 343,
+							"length": 1
+						}
+					},
+					{
+						"content": "data",
+						"polygon": [
+							884,
+							283,
+							928,
+							283,
+							928,
+							307,
+							884,
+							307
+						],
+						"confidence": 0.989,
+						"span": {
+							"offset": 345,
+							"length": 4
+						}
+					},
+					{
+						"content": "3",
+						"polygon": [
+							1018,
+							255,
+							1027,
+							255,
+							1027,
+							279,
+							1018,
+							279
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 350,
+							"length": 1
+						}
+					},
+					{
+						"content": "cycles",
+						"polygon": [
+							1032,
+							254,
+							1088,
+							253,
+							1088,
+							278,
+							1032,
+							279
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 352,
+							"length": 6
+						}
+					},
+					{
+						"content": "(24",
+						"polygon": [
+							1093,
+							253,
+							1124,
+							252,
+							1124,
+							277,
+							1093,
+							278
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 359,
+							"length": 3
+						}
+					},
+					{
+						"content": "data",
+						"polygon": [
+							151,
+							284,
+							191,
+							285,
+							191,
+							308,
+							151,
+							307
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 363,
+							"length": 4
+						}
+					},
+					{
+						"content": "layout,",
+						"polygon": [
+							196,
+							285,
+							260,
+							285,
+							260,
+							308,
+							196,
+							308
+						],
+						"confidence": 0.971,
+						"span": {
+							"offset": 368,
+							"length": 7
+						}
+					},
+					{
+						"content": "1",
+						"polygon": [
+							298,
+							285,
+							306,
+							285,
+							306,
+							309,
+							298,
+							309
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 376,
+							"length": 1
+						}
+					},
+					{
+						"content": "cycle,",
+						"polygon": [
+							311,
+							285,
+							363,
+							284,
+							362,
+							309,
+							310,
+							309
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 378,
+							"length": 6
+						}
+					},
+					{
+						"content": "8",
+						"polygon": [
+							368,
+							284,
+							381,
+							284,
+							380,
+							309,
+							367,
+							309
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 385,
+							"length": 1
+						}
+					},
+					{
+						"content": "cycles",
+						"polygon": [
+							385,
+							284,
+							444,
+							283,
+							444,
+							308,
+							385,
+							309
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 387,
+							"length": 6
+						}
+					},
+					{
+						"content": "16",
+						"polygon": [
+							479,
+							285,
+							499,
+							285,
+							499,
+							304,
+							479,
+							304
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 394,
+							"length": 2
+						}
+					},
+					{
+						"content": "BL",
+						"polygon": [
+							504,
+							285,
+							528,
+							285,
+							528,
+							304,
+							504,
+							304
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 397,
+							"length": 2
+						}
+					},
+					{
+						"content": "16",
+						"polygon": [
+							659,
+							285,
+							679,
+							285,
+							679,
+							304,
+							659,
+							303
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 400,
+							"length": 2
+						}
+					},
+					{
+						"content": "BL",
+						"polygon": [
+							684,
+							285,
+							708,
+							285,
+							708,
+							304,
+							684,
+							304
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 403,
+							"length": 2
+						}
+					},
+					{
+						"content": "cycles",
+						"polygon": [
+							1018,
+							287,
+							1071,
+							284,
+							1071,
+							307,
+							1019,
+							308
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 406,
+							"length": 6
+						}
+					},
+					{
+						"content": "for",
+						"polygon": [
+							1075,
+							284,
+							1104,
+							283,
+							1104,
+							307,
+							1075,
+							307
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 413,
+							"length": 3
+						}
+					},
+					{
+						"content": "8",
+						"polygon": [
+							1109,
+							283,
+							1122,
+							283,
+							1121,
+							307,
+							1108,
+							307
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 417,
+							"length": 1
+						}
+					},
+					{
+						"content": "high",
+						"polygon": [
+							152,
+							313,
+							192,
+							314,
+							191,
+							339,
+							151,
+							339
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 419,
+							"length": 4
+						}
+					},
+					{
+						"content": "latency",
+						"polygon": [
+							197,
+							314,
+							266,
+							314,
+							264,
+							339,
+							196,
+							339
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 424,
+							"length": 7
+						}
+					},
+					{
+						"content": "for",
+						"polygon": [
+							296,
+							315,
+							322,
+							314,
+							322,
+							336,
+							296,
+							337
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 432,
+							"length": 3
+						}
+					},
+					{
+						"content": "8",
+						"polygon": [
+							327,
+							314,
+							339,
+							314,
+							339,
+							336,
+							327,
+							336
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 436,
+							"length": 1
+						}
+					},
+					{
+						"content": "data",
+						"polygon": [
+							343,
+							313,
+							389,
+							314,
+							389,
+							337,
+							343,
+							336
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 438,
+							"length": 4
+						}
+					},
+					{
+						"content": "16+",
+						"polygon": [
+							478,
+							314,
+							512,
+							315,
+							512,
+							338,
+							478,
+							338
+						],
+						"confidence": 0.978,
+						"span": {
+							"offset": 443,
+							"length": 3
+						}
+					},
+					{
+						"content": "cycles",
+						"polygon": [
+							517,
+							315,
+							575,
+							314,
+							575,
+							338,
+							517,
+							338
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 447,
+							"length": 6
+						}
+					},
+					{
+						"content": "(2n)",
+						"polygon": [
+							579,
+							314,
+							617,
+							313,
+							617,
+							339,
+							579,
+							338
+						],
+						"confidence": 0.985,
+						"span": {
+							"offset": 454,
+							"length": 4
+						}
+					},
+					{
+						"content": "16+",
+						"polygon": [
+							658,
+							315,
+							693,
+							315,
+							693,
+							338,
+							658,
+							339
+						],
+						"confidence": 0.957,
+						"span": {
+							"offset": 459,
+							"length": 3
+						}
+					},
+					{
+						"content": "cycles",
+						"polygon": [
+							697,
+							315,
+							757,
+							314,
+							757,
+							337,
+							697,
+							338
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 463,
+							"length": 6
+						}
+					},
+					{
+						"content": "data)",
+						"polygon": [
+							1017,
+							314,
+							1065,
+							315,
+							1065,
+							336,
+							1017,
+							335
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 470,
+							"length": 5
+						}
+					}
+				],
+				"lines": [
+					{
+						"content": "advantage",
+						"polygon": [
+							150,
+							30,
+							251,
+							29,
+							251,
+							53,
+							150,
+							54
+						],
+						"spans": [
+							{
+								"offset": 0,
+								"length": 9
+							}
+						]
+					},
+					{
+						"content": "加法 INT8",
+						"polygon": [
+							296,
+							28,
+							391,
+							27,
+							391,
+							49,
+							296,
+							50
+						],
+						"spans": [
+							{
+								"offset": 10,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "乘法 INT8",
+						"polygon": [
+							475,
+							27,
+							568,
+							27,
+							569,
+							49,
+							476,
+							50
+						],
+						"spans": [
+							{
+								"offset": 18,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "除法 INT8",
+						"polygon": [
+							656,
+							27,
+							749,
+							26,
+							749,
+							49,
+							656,
+							50
+						],
+						"spans": [
+							{
+								"offset": 26,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "SADD INT8",
+						"polygon": [
+							836,
+							28,
+							942,
+							26,
+							943,
+							49,
+							836,
+							51
+						],
+						"spans": [
+							{
+								"offset": 34,
+								"length": 9
+							}
+						]
+					},
+					{
+						"content": "ABS INT8",
+						"polygon": [
+							1016,
+							28,
+							1105,
+							27,
+							1105,
+							49,
+							1016,
+							51
+						],
+						"spans": [
+							{
+								"offset": 44,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "bit-serial",
+						"polygon": [
+							29,
+							81,
+							111,
+							80,
+							111,
+							102,
+							30,
+							102
+						],
+						"spans": [
+							{
+								"offset": 53,
+								"length": 10
+							}
+						]
+					},
+					{
+						"content": "complicated",
+						"polygon": [
+							150,
+							81,
+							267,
+							81,
+							267,
+							104,
+							150,
+							105
+						],
+						"spans": [
+							{
+								"offset": 64,
+								"length": 11
+							}
+						]
+					},
+					{
+						"content": "digital logic,",
+						"polygon": [
+							153,
+							111,
+							264,
+							112,
+							264,
+							137,
+							153,
+							136
+						],
+						"spans": [
+							{
+								"offset": 76,
+								"length": 14
+							}
+						]
+					},
+					{
+						"content": "relatively",
+						"polygon": [
+							150,
+							141,
+							235,
+							142,
+							235,
+							165,
+							150,
+							165
+						],
+						"spans": [
+							{
+								"offset": 91,
+								"length": 10
+							}
+						]
+					},
+					{
+						"content": "low",
+						"polygon": [
+							151,
+							172,
+							186,
+							173,
+							186,
+							192,
+							151,
+							192
+						],
+						"spans": [
+							{
+								"offset": 102,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "throughput",
+						"polygon": [
+							150,
+							202,
+							260,
+							202,
+							260,
+							226,
+							150,
+							226
+						],
+						"spans": [
+							{
+								"offset": 106,
+								"length": 10
+							}
+						]
+					},
+					{
+						"content": "16 WL (inplace)",
+						"polygon": [
+							300,
+							81,
+							439,
+							80,
+							439,
+							105,
+							300,
+							106
+						],
+						"spans": [
+							{
+								"offset": 117,
+								"length": 15
+							}
+						]
+					},
+					{
+						"content": "8 cycles",
+						"polygon": [
+							296,
+							111,
+							371,
+							111,
+							371,
+							135,
+							296,
+							135
+						],
+						"spans": [
+							{
+								"offset": 133,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "8 data for 8 BL",
+						"polygon": [
+							295,
+							141,
+							435,
+							140,
+							435,
+							163,
+							295,
+							164
+						],
+						"spans": [
+							{
+								"offset": 142,
+								"length": 15
+							}
+						]
+					},
+					{
+						"content": "R/TAG, ADD",
+						"polygon": [
+							476,
+							81,
+							590,
+							82,
+							590,
+							103,
+							476,
+							103
+						],
+						"spans": [
+							{
+								"offset": 158,
+								"length": 10
+							}
+						]
+					},
+					{
+						"content": "72+ cycles",
+						"polygon": [
+							476,
+							112,
+							575,
+							112,
+							575,
+							133,
+							476,
+							133
+						],
+						"spans": [
+							{
+								"offset": 169,
+								"length": 10
+							}
+						]
+					},
+					{
+						"content": "(n^2+n)",
+						"polygon": [
+							476,
+							142,
+							556,
+							142,
+							556,
+							164,
+							476,
+							164
+						],
+						"spans": [
+							{
+								"offset": 180,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "16 data for 16",
+						"polygon": [
+							477,
+							172,
+							608,
+							171,
+							608,
+							192,
+							477,
+							193
+						],
+						"spans": [
+							{
+								"offset": 188,
+								"length": 14
+							}
+						]
+					},
+					{
+						"content": "BL",
+						"polygon": [
+							477,
+							202,
+							502,
+							202,
+							501,
+							222,
+							477,
+							221
+						],
+						"spans": [
+							{
+								"offset": 203,
+								"length": 2
+							}
+						]
+					},
+					{
+						"content": "108+ cycles",
+						"polygon": [
+							659,
+							82,
+							767,
+							82,
+							767,
+							104,
+							659,
+							104
+						],
+						"spans": [
+							{
+								"offset": 206,
+								"length": 11
+							}
+						]
+					},
+					{
+						"content": "(1.5n^2+1.5n)",
+						"polygon": [
+							657,
+							112,
+							787,
+							112,
+							787,
+							133,
+							657,
+							133
+						],
+						"spans": [
+							{
+								"offset": 218,
+								"length": 13
+							}
+						]
+					},
+					{
+						"content": "16 cycles (8",
+						"polygon": [
+							838,
+							81,
+							944,
+							81,
+							944,
+							104,
+							839,
+							105
+						],
+						"spans": [
+							{
+								"offset": 232,
+								"length": 12
+							}
+						]
+					},
+					{
+						"content": "cycles for",
+						"polygon": [
+							835,
+							113,
+							925,
+							111,
+							926,
+							133,
+							836,
+							136
+						],
+						"spans": [
+							{
+								"offset": 245,
+								"length": 10
+							}
+						]
+					},
+					{
+						"content": "writing 1)",
+						"polygon": [
+							836,
+							142,
+							926,
+							142,
+							926,
+							166,
+							836,
+							165
+						],
+						"spans": [
+							{
+								"offset": 256,
+								"length": 10
+							}
+						]
+					},
+					{
+						"content": "24 cycles",
+						"polygon": [
+							1016,
+							82,
+							1101,
+							82,
+							1102,
+							105,
+							1016,
+							107
+						],
+						"spans": [
+							{
+								"offset": 267,
+								"length": 9
+							}
+						]
+					},
+					{
+						"content": "element-",
+						"polygon": [
+							29,
+							255,
+							112,
+							254,
+							112,
+							273,
+							29,
+							274
+						],
+						"spans": [
+							{
+								"offset": 277,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "wise",
+						"polygon": [
+							28,
+							286,
+							70,
+							285,
+							70,
+							303,
+							29,
+							304
+						],
+						"spans": [
+							{
+								"offset": 286,
+								"length": 4
+							}
+						]
+					},
+					{
+						"content": "transposed",
+						"polygon": [
+							151,
+							254,
+							256,
+							255,
+							256,
+							277,
+							151,
+							276
+						],
+						"spans": [
+							{
+								"offset": 291,
+								"length": 10
+							}
+						]
+					},
+					{
+						"content": "8 BL, 2 WL",
+						"polygon": [
+							296,
+							253,
+							395,
+							253,
+							395,
+							275,
+							296,
+							275
+						],
+						"spans": [
+							{
+								"offset": 302,
+								"length": 10
+							}
+						]
+					},
+					{
+						"content": "OSM",
+						"polygon": [
+							476,
+							255,
+							524,
+							254,
+							524,
+							274,
+							476,
+							273
+						],
+						"spans": [
+							{
+								"offset": 313,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "OSD",
+						"polygon": [
+							657,
+							255,
+							699,
+							254,
+							699,
+							273,
+							658,
+							273
+						],
+						"spans": [
+							{
+								"offset": 317,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "1 cycle, 8 cycles",
+						"polygon": [
+							837,
+							254,
+							985,
+							253,
+							985,
+							278,
+							837,
+							279
+						],
+						"spans": [
+							{
+								"offset": 321,
+								"length": 17
+							}
+						]
+					},
+					{
+						"content": "for 8 data",
+						"polygon": [
+							836,
+							283,
+							929,
+							283,
+							929,
+							306,
+							836,
+							306
+						],
+						"spans": [
+							{
+								"offset": 339,
+								"length": 10
+							}
+						]
+					},
+					{
+						"content": "3 cycles (24",
+						"polygon": [
+							1017,
+							254,
+							1125,
+							252,
+							1125,
+							277,
+							1017,
+							278
+						],
+						"spans": [
+							{
+								"offset": 350,
+								"length": 12
+							}
+						]
+					},
+					{
+						"content": "data layout,",
+						"polygon": [
+							150,
+							283,
+							261,
+							284,
+							260,
+							308,
+							150,
+							306
+						],
+						"spans": [
+							{
+								"offset": 363,
+								"length": 12
+							}
+						]
+					},
+					{
+						"content": "1 cycle, 8 cycles",
+						"polygon": [
+							297,
+							284,
+							444,
+							283,
+							444,
+							308,
+							297,
+							309
+						],
+						"spans": [
+							{
+								"offset": 376,
+								"length": 17
+							}
+						]
+					},
+					{
+						"content": "16 BL",
+						"polygon": [
+							478,
+							285,
+							530,
+							285,
+							530,
+							303,
+							479,
+							304
+						],
+						"spans": [
+							{
+								"offset": 394,
+								"length": 5
+							}
+						]
+					},
+					{
+						"content": "16 BL",
+						"polygon": [
+							658,
+							285,
+							709,
+							285,
+							709,
+							304,
+							658,
+							303
+						],
+						"spans": [
+							{
+								"offset": 400,
+								"length": 5
+							}
+						]
+					},
+					{
+						"content": "cycles for 8",
+						"polygon": [
+							1018,
+							285,
+							1122,
+							282,
+							1123,
+							307,
+							1018,
+							309
+						],
+						"spans": [
+							{
+								"offset": 406,
+								"length": 12
+							}
+						]
+					},
+					{
+						"content": "high latency",
+						"polygon": [
+							151,
+							313,
+							266,
+							313,
+							266,
+							339,
+							151,
+							338
+						],
+						"spans": [
+							{
+								"offset": 419,
+								"length": 12
+							}
+						]
+					},
+					{
+						"content": "for 8 data",
+						"polygon": [
+							295,
+							313,
+							390,
+							313,
+							390,
+							336,
+							295,
+							336
+						],
+						"spans": [
+							{
+								"offset": 432,
+								"length": 10
+							}
+						]
+					},
+					{
+						"content": "16+ cycles (2n)",
+						"polygon": [
+							476,
+							313,
+							617,
+							313,
+							617,
+							338,
+							476,
+							338
+						],
+						"spans": [
+							{
+								"offset": 443,
+								"length": 15
+							}
+						]
+					},
+					{
+						"content": "16+ cycles",
+						"polygon": [
+							657,
+							314,
+							757,
+							314,
+							758,
+							337,
+							658,
+							338
+						],
+						"spans": [
+							{
+								"offset": 459,
+								"length": 10
+							}
+						]
+					},
+					{
+						"content": "data)",
+						"polygon": [
+							1016,
+							314,
+							1066,
+							315,
+							1065,
+							336,
+							1016,
+							335
+						],
+						"spans": [
+							{
+								"offset": 470,
+								"length": 5
+							}
+						]
+					}
+				],
+				"spans": [
+					{
+						"offset": 0,
+						"length": 475
+					}
+				],
+				"kind": "document"
+			}
+		],
+		"tables": [
+			{
+				"rowCount": 5,
+				"columnCount": 7,
+				"cells": [
+					{
+						"kind": "columnHeader",
+						"rowIndex": 0,
+						"columnIndex": 0,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									16,
+									12,
+									137,
+									12,
+									137,
+									64,
+									15,
+									64
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"kind": "columnHeader",
+						"rowIndex": 0,
+						"columnIndex": 1,
+						"content": "advantage",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									137,
+									12,
+									283,
+									12,
+									283,
+									64,
+									137,
+									64
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 0,
+								"length": 9
+							}
+						]
+					},
+					{
+						"kind": "columnHeader",
+						"rowIndex": 0,
+						"columnIndex": 2,
+						"content": "加法 INT8",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									283,
+									12,
+									462,
+									12,
+									462,
+									64,
+									283,
+									64
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 10,
+								"length": 7
+							}
+						]
+					},
+					{
+						"kind": "columnHeader",
+						"rowIndex": 0,
+						"columnIndex": 3,
+						"content": "乘法 INT8",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									462,
+									12,
+									644,
+									12,
+									644,
+									64,
+									462,
+									64
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 18,
+								"length": 7
+							}
+						]
+					},
+					{
+						"kind": "columnHeader",
+						"rowIndex": 0,
+						"columnIndex": 4,
+						"content": "除法 INT8",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									644,
+									12,
+									824,
+									12,
+									824,
+									64,
+									644,
+									64
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 26,
+								"length": 7
+							}
+						]
+					},
+					{
+						"kind": "columnHeader",
+						"rowIndex": 0,
+						"columnIndex": 5,
+						"content": "SADD INT8",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									824,
+									12,
+									1004,
+									12,
+									1004,
+									64,
+									824,
+									64
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 34,
+								"length": 9
+							}
+						]
+					},
+					{
+						"kind": "columnHeader",
+						"rowIndex": 0,
+						"columnIndex": 6,
+						"content": "ABS INT8",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									1004,
+									12,
+									1160,
+									12,
+									1160,
+									64,
+									1004,
+									64
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 44,
+								"length": 8
+							}
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 0,
+						"content": "bit-serial",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									15,
+									64,
+									137,
+									64,
+									137,
+									237,
+									13,
+									237
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 53,
+								"length": 10
+							}
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 1,
+						"content": "complicated digital logic, relatively low throughput",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									137,
+									64,
+									283,
+									64,
+									283,
+									237,
+									137,
+									237
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 64,
+								"length": 52
+							}
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 2,
+						"content": "16 WL (inplace) 8 cycles 8 data for 8 BL",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									283,
+									64,
+									462,
+									64,
+									462,
+									237,
+									283,
+									237
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 117,
+								"length": 40
+							}
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 3,
+						"content": "R/TAG, ADD 72+ cycles (n^2+n) 16 data for 16 BL",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									462,
+									64,
+									644,
+									64,
+									644,
+									237,
+									462,
+									237
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 158,
+								"length": 47
+							}
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 4,
+						"content": "108+ cycles (1.5n^2+1.5n)",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									644,
+									64,
+									824,
+									64,
+									824,
+									237,
+									644,
+									237
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 206,
+								"length": 25
+							}
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 5,
+						"content": "16 cycles (8 cycles for writing 1)",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									824,
+									64,
+									1004,
+									64,
+									1004,
+									237,
+									824,
+									237
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 232,
+								"length": 34
+							}
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 6,
+						"content": "24 cycles",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									1004,
+									64,
+									1160,
+									64,
+									1160,
+									237,
+									1004,
+									237
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 267,
+								"length": 9
+							}
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 0,
+						"rowSpan": 3,
+						"content": "element- wise",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									13,
+									237,
+									137,
+									237,
+									137,
+									349,
+									13,
+									349
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 277,
+								"length": 13
+							}
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 1,
+						"content": "transposed",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									137,
+									237,
+									283,
+									237,
+									283,
+									281,
+									137,
+									281
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 291,
+								"length": 10
+							}
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 2,
+						"content": "8 BL, 2 WL",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									283,
+									237,
+									462,
+									237,
+									462,
+									281,
+									283,
+									281
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 302,
+								"length": 10
+							}
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 3,
+						"content": "OSM",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									462,
+									237,
+									644,
+									237,
+									644,
+									281,
+									462,
+									281
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 313,
+								"length": 3
+							}
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 4,
+						"content": "OSD",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									644,
+									237,
+									824,
+									237,
+									824,
+									281,
+									644,
+									281
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 317,
+								"length": 3
+							}
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 5,
+						"rowSpan": 3,
+						"content": "1 cycle, 8 cycles for 8 data",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									824,
+									237,
+									1004,
+									237,
+									1004,
+									347,
+									824,
+									347
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 321,
+								"length": 28
+							}
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 6,
+						"content": "3 cycles (24",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									1004,
+									237,
+									1160,
+									237,
+									1160,
+									281,
+									1004,
+									281
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 350,
+								"length": 12
+							}
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 1,
+						"content": "data layout,",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									137,
+									281,
+									283,
+									281,
+									283,
+									309,
+									137,
+									310
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 363,
+								"length": 12
+							}
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 2,
+						"content": "1 cycle, 8 cycles",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									283,
+									281,
+									462,
+									281,
+									462,
+									309,
+									283,
+									309
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 376,
+								"length": 17
+							}
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 3,
+						"content": "16 BL",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									462,
+									281,
+									644,
+									281,
+									644,
+									309,
+									462,
+									309
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 394,
+								"length": 5
+							}
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 4,
+						"content": "16 BL",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									644,
+									281,
+									824,
+									281,
+									824,
+									309,
+									644,
+									309
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 400,
+								"length": 5
+							}
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 6,
+						"content": "cycles for 8",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									1004,
+									281,
+									1160,
+									281,
+									1160,
+									309,
+									1004,
+									309
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 406,
+								"length": 12
+							}
+						]
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 1,
+						"content": "high latency",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									137,
+									310,
+									283,
+									309,
+									283,
+									349,
+									137,
+									349
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 419,
+								"length": 12
+							}
+						]
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 2,
+						"content": "for 8 data",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									283,
+									309,
+									462,
+									309,
+									462,
+									349,
+									283,
+									349
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 432,
+								"length": 10
+							}
+						]
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 3,
+						"content": "16+ cycles (2n)",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									462,
+									309,
+									644,
+									309,
+									644,
+									349,
+									462,
+									349
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 443,
+								"length": 15
+							}
+						]
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 4,
+						"content": "16+ cycles",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									644,
+									309,
+									824,
+									309,
+									824,
+									347,
+									644,
+									349
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 459,
+								"length": 10
+							}
+						]
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 6,
+						"content": "data)",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									1004,
+									309,
+									1160,
+									309,
+									1160,
+									347,
+									1004,
+									347
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 470,
+								"length": 5
+							}
+						]
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							10,
+							10,
+							1174,
+							10,
+							1174,
+							349,
+							10,
+							348
+						]
+					}
+				],
+				"spans": [
+					{
+						"offset": 0,
+						"length": 475
+					}
+				]
+			}
+		],
+		"paragraphs": [
+			{
+				"spans": [
+					{
+						"offset": 0,
+						"length": 9
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							137,
+							12,
+							283,
+							12,
+							283,
+							64,
+							137,
+							64
+						]
+					}
+				],
+				"content": "advantage"
+			},
+			{
+				"spans": [
+					{
+						"offset": 10,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							283,
+							12,
+							462,
+							12,
+							462,
+							64,
+							283,
+							64
+						]
+					}
+				],
+				"content": "加法 INT8"
+			},
+			{
+				"spans": [
+					{
+						"offset": 18,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							462,
+							12,
+							644,
+							12,
+							644,
+							64,
+							462,
+							64
+						]
+					}
+				],
+				"content": "乘法 INT8"
+			},
+			{
+				"spans": [
+					{
+						"offset": 26,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							644,
+							12,
+							824,
+							12,
+							824,
+							64,
+							644,
+							64
+						]
+					}
+				],
+				"content": "除法 INT8"
+			},
+			{
+				"spans": [
+					{
+						"offset": 34,
+						"length": 9
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							824,
+							12,
+							1004,
+							12,
+							1004,
+							64,
+							824,
+							64
+						]
+					}
+				],
+				"content": "SADD INT8"
+			},
+			{
+				"spans": [
+					{
+						"offset": 44,
+						"length": 8
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1004,
+							12,
+							1160,
+							12,
+							1160,
+							64,
+							1004,
+							64
+						]
+					}
+				],
+				"content": "ABS INT8"
+			},
+			{
+				"spans": [
+					{
+						"offset": 53,
+						"length": 10
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							15,
+							64,
+							137,
+							64,
+							137,
+							237,
+							13,
+							237
+						]
+					}
+				],
+				"content": "bit-serial"
+			},
+			{
+				"spans": [
+					{
+						"offset": 64,
+						"length": 52
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							137,
+							64,
+							283,
+							64,
+							283,
+							237,
+							137,
+							237
+						]
+					}
+				],
+				"content": "complicated digital logic, relatively low throughput"
+			},
+			{
+				"spans": [
+					{
+						"offset": 117,
+						"length": 40
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							283,
+							64,
+							462,
+							64,
+							462,
+							237,
+							283,
+							237
+						]
+					}
+				],
+				"content": "16 WL (inplace) 8 cycles 8 data for 8 BL"
+			},
+			{
+				"spans": [
+					{
+						"offset": 158,
+						"length": 47
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							462,
+							64,
+							644,
+							64,
+							644,
+							237,
+							462,
+							237
+						]
+					}
+				],
+				"content": "R/TAG, ADD 72+ cycles (n^2+n) 16 data for 16 BL"
+			},
+			{
+				"spans": [
+					{
+						"offset": 206,
+						"length": 25
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							644,
+							64,
+							824,
+							64,
+							824,
+							237,
+							644,
+							237
+						]
+					}
+				],
+				"content": "108+ cycles (1.5n^2+1.5n)"
+			},
+			{
+				"spans": [
+					{
+						"offset": 232,
+						"length": 34
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							824,
+							64,
+							1004,
+							64,
+							1004,
+							237,
+							824,
+							237
+						]
+					}
+				],
+				"content": "16 cycles (8 cycles for writing 1)"
+			},
+			{
+				"spans": [
+					{
+						"offset": 267,
+						"length": 9
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1004,
+							64,
+							1160,
+							64,
+							1160,
+							237,
+							1004,
+							237
+						]
+					}
+				],
+				"content": "24 cycles"
+			},
+			{
+				"spans": [
+					{
+						"offset": 277,
+						"length": 13
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							13,
+							237,
+							137,
+							237,
+							137,
+							349,
+							13,
+							349
+						]
+					}
+				],
+				"content": "element- wise"
+			},
+			{
+				"spans": [
+					{
+						"offset": 291,
+						"length": 10
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							137,
+							237,
+							283,
+							237,
+							283,
+							281,
+							137,
+							281
+						]
+					}
+				],
+				"content": "transposed"
+			},
+			{
+				"spans": [
+					{
+						"offset": 302,
+						"length": 10
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							283,
+							237,
+							462,
+							237,
+							462,
+							281,
+							283,
+							281
+						]
+					}
+				],
+				"content": "8 BL, 2 WL"
+			},
+			{
+				"spans": [
+					{
+						"offset": 313,
+						"length": 3
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							462,
+							237,
+							644,
+							237,
+							644,
+							281,
+							462,
+							281
+						]
+					}
+				],
+				"content": "OSM"
+			},
+			{
+				"spans": [
+					{
+						"offset": 317,
+						"length": 3
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							644,
+							237,
+							824,
+							237,
+							824,
+							281,
+							644,
+							281
+						]
+					}
+				],
+				"content": "OSD"
+			},
+			{
+				"spans": [
+					{
+						"offset": 321,
+						"length": 28
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							824,
+							237,
+							1004,
+							237,
+							1004,
+							347,
+							824,
+							347
+						]
+					}
+				],
+				"content": "1 cycle, 8 cycles for 8 data"
+			},
+			{
+				"spans": [
+					{
+						"offset": 350,
+						"length": 12
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1004,
+							237,
+							1160,
+							237,
+							1160,
+							281,
+							1004,
+							281
+						]
+					}
+				],
+				"content": "3 cycles (24"
+			},
+			{
+				"spans": [
+					{
+						"offset": 363,
+						"length": 12
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							137,
+							281,
+							283,
+							281,
+							283,
+							309,
+							137,
+							310
+						]
+					}
+				],
+				"content": "data layout,"
+			},
+			{
+				"spans": [
+					{
+						"offset": 376,
+						"length": 17
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							283,
+							281,
+							462,
+							281,
+							462,
+							309,
+							283,
+							309
+						]
+					}
+				],
+				"content": "1 cycle, 8 cycles"
+			},
+			{
+				"spans": [
+					{
+						"offset": 394,
+						"length": 5
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							462,
+							281,
+							644,
+							281,
+							644,
+							309,
+							462,
+							309
+						]
+					}
+				],
+				"content": "16 BL"
+			},
+			{
+				"spans": [
+					{
+						"offset": 400,
+						"length": 5
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							644,
+							281,
+							824,
+							281,
+							824,
+							309,
+							644,
+							309
+						]
+					}
+				],
+				"content": "16 BL"
+			},
+			{
+				"spans": [
+					{
+						"offset": 406,
+						"length": 12
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1004,
+							281,
+							1160,
+							281,
+							1160,
+							309,
+							1004,
+							309
+						]
+					}
+				],
+				"content": "cycles for 8"
+			},
+			{
+				"spans": [
+					{
+						"offset": 419,
+						"length": 12
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							137,
+							310,
+							283,
+							309,
+							283,
+							349,
+							137,
+							349
+						]
+					}
+				],
+				"content": "high latency"
+			},
+			{
+				"spans": [
+					{
+						"offset": 432,
+						"length": 10
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							283,
+							309,
+							462,
+							309,
+							462,
+							349,
+							283,
+							349
+						]
+					}
+				],
+				"content": "for 8 data"
+			},
+			{
+				"spans": [
+					{
+						"offset": 443,
+						"length": 15
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							462,
+							309,
+							644,
+							309,
+							644,
+							349,
+							462,
+							349
+						]
+					}
+				],
+				"content": "16+ cycles (2n)"
+			},
+			{
+				"spans": [
+					{
+						"offset": 459,
+						"length": 10
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							644,
+							309,
+							824,
+							309,
+							824,
+							347,
+							644,
+							349
+						]
+					}
+				],
+				"content": "16+ cycles"
+			},
+			{
+				"spans": [
+					{
+						"offset": 470,
+						"length": 5
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1004,
+							309,
+							1160,
+							309,
+							1160,
+							347,
+							1004,
+							347
+						]
+					}
+				],
+				"content": "data)"
+			}
+		],
+		"styles": []
+	}
+}
